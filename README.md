@@ -9,6 +9,7 @@ Need:
 
 * [exiftool](https://exiftool.org/)
 * add an empty folder called "Output"
+* add an empty folder called "Photos"
 * put custom photos in your Photos folder
 
 ## what's in this repo
