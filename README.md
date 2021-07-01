@@ -3,7 +3,13 @@ scripts and shiny apps for managing photo metadata and plotting image locations 
 
 This was developed for a case where a client had a large amount of photo evidence. Advocates wanted to sort through the photos by date and location. Later, they wanted to document each photo's metadata and rename each file for the date. 
 
-See deployed shiny app [here](https://trla.shinyapps.io/EXIF_Photo_Mapping/)
+See deployed shiny app [here](https://trla.shinyapps.io/EXIF_Photo_Mapping/).
+
+Need: 
+
+* [exiftool](https://exiftool.org/)
+* add an empty folder called "Output"
+* put custom photos in your Photos folder
 
 ## what's in this repo
 
