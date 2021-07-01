@@ -25,7 +25,7 @@ dat2 <- select(dat,
   filter(!is.na(GPSLongitude) | !is.na(GPSLatitude)) %>%
   mutate(Date = ymd(Date))
 
-write.csv(dat2, paste0("ExifData - ", Sys.Date()),
+write.csv(dat2, paste0("Output/ExifData - ", Sys.Date(), ".csv"),
           row.names = F)
 
 # dat2 <- read.csv('Data/Exifdata.csv') %>%
